@@ -1,0 +1,24 @@
+{
+    "name": "Basic Kubernetes Service",
+    "id": "com.github.Vrukshali-26.plugin.templates.basic-service-template",
+    "author": "Vrukshali-26",
+    "version": "1.0.0",
+    "description": "Creates a Kubernetes Service",
+    "repository": "",
+    "type": "vanilla",
+    "forms": [
+      {
+        "name": "Service Settings",
+        "description": "Specify the settings for your Service",
+        "schema": "form-schema.json",
+        "uiSchema": "form-ui-schema.json"
+      }
+    ],
+    "manifests": [
+      {
+        "filePath": "template.yaml"
+      }
+    ],
+    "resultMessage": "Service resource created successfully!",
+    "helpUrl": "https://github.com/Vrukshali-26/monokle-templates-plugins"
+  }

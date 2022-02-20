@@ -1,0 +1,17 @@
+{
+    "name": "Monokle Custom Templates Plugin",
+    "author": "Vrukshali Torawane",
+    "version": "1.0.0",
+    "description": "This plugin provides the custom resource templates for Monokle",
+    "repository": "https://github.com/Vrukshali-26/monokle-templates-plugins",
+    "monoklePlugin": {
+      "id": "com.github.Vrukshali-26.plugin.templates",
+      "helpUrl": "https://github.com/Vrukshali-26/monokle-templates-plugins",
+      "modules": [
+        {
+          "type": "template",
+          "path": "service-template" 
+        }
+      ]
+    }
+}
